@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|f:\\work\\freelancer\\raziapmandal\\3d word game\\word game\\assets\\_game\\scripts\\utility\\cameraorbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\utility\\cameraorbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|f:\\work\\freelancer\\raziapmandal\\3d word game\\word game\\assets\\_game\\scripts\\sphere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\sphere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|f:\\work\\freelancer\\raziapmandal\\3d word game\\word game\\assets\\_game\\scripts\\objects\\sphere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\objects\\sphere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|f:\\work\\freelancer\\raziapmandal\\3d word game\\word game\\assets\\_game\\scripts\\gamecamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\gamecamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,33 +17,39 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 212,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameCamera.cs",
+              "DocumentMoniker": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\GameCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\_GAME\\Scripts\\GameCamera.cs",
+              "ToolTip": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\GameCamera.cs",
+              "RelativeToolTip": "Assets\\_GAME\\Scripts\\GameCamera.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T20:05:20.54Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 188,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CameraOrbit.cs",
-              "DocumentMoniker": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Utility\\CameraOrbit.cs",
-              "RelativeDocumentMoniker": "Assets\\_GAME\\Scripts\\Utility\\CameraOrbit.cs",
-              "ToolTip": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Utility\\CameraOrbit.cs",
-              "RelativeToolTip": "Assets\\_GAME\\Scripts\\Utility\\CameraOrbit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T16:45:27.867Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Sphere.cs",
-              "DocumentMoniker": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Objects\\Sphere.cs",
-              "RelativeDocumentMoniker": "Assets\\_GAME\\Scripts\\Objects\\Sphere.cs",
-              "ToolTip": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Objects\\Sphere.cs",
-              "RelativeToolTip": "Assets\\_GAME\\Scripts\\Objects\\Sphere.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Sphere.cs",
+              "RelativeDocumentMoniker": "Assets\\_GAME\\Scripts\\Sphere.cs",
+              "ToolTip": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Sphere.cs",
+              "RelativeToolTip": "Assets\\_GAME\\Scripts\\Sphere.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T16:00:00.85Z",
+              "WhenOpened": "2025-07-27T19:52:47.487Z",
               "EditorCaption": ""
             }
           ]
