@@ -2,8 +2,6 @@ using UnityEngine;
 
 public class HUDComponent : MonoBehaviour
 {
-    public Player CurrentPlayer = Player.Player1;
-    private string playerName;
     private int playerScore = 0;
 
 
@@ -17,10 +15,13 @@ public class HUDComponent : MonoBehaviour
     {
         playerScore += score;
     }
-
+    public int GetScore()
+    {
+        return playerScore;
+    }
 }
 
-public enum Player
+public enum PlayerOneTwo
 {
     Player1, Player2
 }
