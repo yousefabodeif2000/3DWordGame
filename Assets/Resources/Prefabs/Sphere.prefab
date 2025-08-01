@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2506513091964070066}
   - component: {fileID: 5814387706269129213}
   - component: {fileID: 9178227343211908482}
+  - component: {fileID: 964813743148432982}
   m_Layer: 0
   m_Name: Screen
   m_TagString: Untagged
@@ -2381,6 +2382,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2585479891621036494}
   m_Mesh: {fileID: 0}
+--- !u!114 &964813743148432982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2585479891621036494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8baaa035b0673244c9d8f2dd27b8d771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9135276517423367010
 GameObject:
   m_ObjectHideFlags: 0
@@ -36468,6 +36481,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lookAtCameraSpeed: 10
+  Screen: {fileID: 964813743148432982}
 --- !u!135 &4123016835796886866
 SphereCollider:
   m_ObjectHideFlags: 0

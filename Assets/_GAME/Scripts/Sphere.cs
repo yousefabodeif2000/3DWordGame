@@ -11,7 +11,7 @@ public class Sphere : MonoBehaviour
     }
     public void Initialize()
     {
-
+        
     }
     private void FixedUpdate()
     {
