@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 namespace Dimensional
 {
@@ -17,7 +18,8 @@ namespace Dimensional
                 return isTurn; 
             } 
             set { 
-                isTurn = value; 
+                isTurn = value;
+                playerHUD.LightUp(isTurn);
             } 
         }
         public int playerScore = 0;
@@ -37,10 +39,23 @@ namespace Dimensional
 
         public void Initialize(GameConfiguration config)
         {
-            playerHUD.Initialize(config);
+            playerHUD.Initialize();
             isTurn = false;
             ChosenSpheres.Clear();
         }
-
+        public void OnSphereClick(Sphere sphere)
+        {
+            if (PlayerType == PlayerOneTwo.Player1)
+                sphere.IsTakenByPlayer1 = PlayerType == PlayerOneTwo.Player1 ? true : false;
+            else
+                sphere.IsTakenByPlayer2 = PlayerType == PlayerOneTwo.Player2 ? true : false;
+            GameManager.SwitchTurns();
+            playerHUD.OnSphereClick(sphere);
+        }
+        public void Reset()
+        {
+            IsTurn = false;
+            PlayerScore = 0;
+        }
     }
 }

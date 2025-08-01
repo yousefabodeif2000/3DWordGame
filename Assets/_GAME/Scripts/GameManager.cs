@@ -1,26 +1,46 @@
 using Dimensional;
+using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
+using UnityEditor;
 using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     static public GameManager Instance;
     public GameConfiguration GameConfiguration;
-    public GameResources GameResources;
+    static public GameResources GameResources;
 
     public Player PlayerOne;
     public Player PlayerTwo;
 
+    [Header("Settings")]
+    public float delayBetweenTurns = 2f;
+
 
     [Header("References")]
     public List<Sphere> Spheres = new List<Sphere>();
+    
 
 
     private void Awake()
     {
         Instance = this;
+        GameResources = Resources.Load<GameResources>("GameResources");
     }
+    private void Start()
+    {
+        InitializeGame();
+    }
+    private void OnEnable()
+    { 
+        // Subscribe to events if any
+        Sphere.OnSphereClicked += OnSphereClicked;
 
+    }
+    private void OnDisable()
+    {
+        // Unsubscribe from events if any
+        Sphere.OnSphereClicked -= OnSphereClicked;
+    }
     public void InitializeGame()
     {
         GameResources.Letters.Shuffle();
@@ -29,6 +49,7 @@ public class GameManager : MonoBehaviour
         PlayerTwo.Initialize(GameConfiguration);
         PlayerOne.IsTurn = true;
         PlayerTwo.IsTurn = false;
+        SphereUtility.LockInteraction(false);
     }
     public void AssignLettersToSpheres()
     {
@@ -41,8 +62,8 @@ public class GameManager : MonoBehaviour
         {
             if (i < GameResources.Letters.Count)
             {
-                Spheres[i].Letter = GameResources.Letters[i];
                 Spheres[i].Initialize();
+                Spheres[i].Letter = GameResources.Letters[i];
             }
             else
             {
@@ -53,8 +74,25 @@ public class GameManager : MonoBehaviour
     }
     public static void SwitchTurns() 
     {
-        Instance.PlayerOne.IsTurn = !Instance.PlayerOne.IsTurn;
-        Instance.PlayerTwo.IsTurn = !Instance.PlayerTwo.IsTurn;
+        Instance.StartCoroutine(enumerator());
+        IEnumerator enumerator()
+        {
+            SphereUtility.LockInteraction(true);
+            yield return new WaitForSeconds(Instance.delayBetweenTurns); 
+            Instance.PlayerOne.IsTurn = !Instance.PlayerOne.IsTurn;
+            Instance.PlayerTwo.IsTurn = !Instance.PlayerTwo.IsTurn;
+            SphereUtility.LockInteraction(false);
+        }
+
+    }
+    void OnSphereClicked(Sphere sphere)
+    {
+
+    }
+    public void Reset()
+    {
+        PlayerOne.Reset();
+        PlayerTwo.Reset();
     }
 }
 
@@ -78,4 +116,34 @@ public static class ListExtensions
 
 public static class SphereUtility
 {
+    public static void LockInteraction(bool lockInteraction)
+    {
+        GameManager manager = GameManager.Instance;
+        foreach (Sphere sphere in manager.Spheres)
+        {
+            sphere.IsInteractable = !lockInteraction;
+        }
+    }
+}
+[CustomEditor(typeof(GameManager))]
+public class GameDebugEditor : Editor
+{
+    public override void OnInspectorGUI()
+    {
+        DrawDefaultInspector(); // Draw normal fields
+
+        if (Application.isPlaying) // Only show at runtime
+        {
+            GameManager myTarget = (GameManager)target;
+
+            if (GUILayout.Button("Initialize Game"))
+            {
+                myTarget.InitializeGame();
+            }
+            if(GUILayout.Button("Reset Game"))
+            {
+                myTarget.Reset();
+            }
+        }
+    }
 }

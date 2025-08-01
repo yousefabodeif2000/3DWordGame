@@ -22,12 +22,12 @@ public class API : MonoBehaviour
     /// Call this to check if a word exists in the dictionary.
     /// </summary>
     /// <param name="word">The word to check</param>
-    public static void CheckWord(string word)
+    public static void CheckWord(string word, Action<bool> onValid)
     {
-        API.Instance.StartCoroutine(Instance.CheckWordCoroutine(word));
+        API.Instance.StartCoroutine(Instance.CheckWordCoroutine(word, onValid));
     }
 
-    private IEnumerator CheckWordCoroutine(string word)
+    private IEnumerator CheckWordCoroutine(string word, Action<bool> onValid)
     {
         string url = API_URL + word.ToLower();
 
@@ -42,34 +42,19 @@ public class API : MonoBehaviour
 #endif
             {
                 Debug.Log($"{word} is a valid word.");
-                APIEvents.ExecuteWordValid(word);
+                onValid?.Invoke(true);
                 Debug.Log("Definition (raw): " + request.downloadHandler.text);
                 // Optional: parse the JSON here to extract definitions
             }
             else if(request.result == UnityWebRequest.Result.ProtocolError)
             {
                 Debug.LogWarning($"{word} is NOT a valid word. Error: {request.error}");
-                APIEvents.ExecuteWordInvalid(word);
+                onValid?.Invoke(false);
             }
             else
             {
                 Debug.LogWarning($"Connection Error: {request.error}");
             }
         }
-    }
-}
-
-public static class  APIEvents
-{
-    static public event Action<string> OnWordValid;
-    static public event Action<string> OnWordInvalid;
-
-    static public void ExecuteWordValid(string word)
-    {
-        OnWordValid?.Invoke(word);
-    }
-    static public void ExecuteWordInvalid(string word)
-    {
-        OnWordInvalid?.Invoke(word);
     }
 }
