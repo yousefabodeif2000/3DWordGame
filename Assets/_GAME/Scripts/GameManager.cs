@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
     public Player PlayerOne;
     public Player PlayerTwo;
 
+    public TaskManager TaskManager;
+
     [Header("Settings")]
     public float delayBetweenTurns = 2f;
 
@@ -45,6 +47,7 @@ public class GameManager : MonoBehaviour
     {
         GameResources.Letters.Shuffle();
         AssignLettersToSpheres();
+        TaskManager.Initialize();
         PlayerOne.Initialize(GameConfiguration);
         PlayerTwo.Initialize(GameConfiguration);
         PlayerOne.IsTurn = true;
@@ -94,6 +97,11 @@ public class GameManager : MonoBehaviour
         PlayerOne.Reset();
         PlayerTwo.Reset();
     }
+    public Player GetPlayerInTurn()
+    {
+        return PlayerOne.IsTurn ? PlayerOne : PlayerTwo;
+    }
+
 }
 
 public static class ListExtensions

@@ -5,6 +5,8 @@ public class Sphere : MonoBehaviour
 {
     static public event Action<Sphere> OnSphereClicked;
 
+
+    public SphereColor SphereColor = SphereColor.None;
     GameManager gameManager => GameManager.Instance;
 
     bool takenp1, takenp2;
@@ -106,4 +108,11 @@ public class Sphere : MonoBehaviour
     {
         sphereMaterial.DisableKeyword("_EMISSION");
     }
+}
+public enum SphereColor
+{
+    None,
+    Red,
+    Green,
+    Blue
 }
