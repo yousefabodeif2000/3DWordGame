@@ -3,35 +3,59 @@
   "WorkspaceRootPath": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Utility\\WordMaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\_GAME\\Scripts\\Utility\\WordMaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|f:\\work\\freelancer\\raziapmandal\\3d word game\\word game\\assets\\_game\\scripts\\task\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\task\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|f:\\work\\freelancer\\raziapmandal\\3d word game\\word game\\assets\\_game\\scripts\\task\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\task\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|f:\\work\\freelancer\\raziapmandal\\3d word game\\word game\\assets\\_game\\scripts\\task\\taskuiitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\task\\taskuiitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|f:\\work\\freelancer\\raziapmandal\\3d word game\\word game\\assets\\_game\\scripts\\task\\taskdescriptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\task\\taskdescriptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\TaskManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\_GAME\\Scripts\\TaskManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\assets\\_game\\scripts\\utility\\cubicleutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\utility\\cubicleutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|f:\\work\\freelancer\\raziapmandal\\3d word game\\word game\\assets\\_game\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\assets\\_game\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\assets\\_game\\scripts\\sphere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\sphere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\assets\\_game\\scripts\\hudcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\hudcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\assets\\_game\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\assets\\_game\\scripts\\utility\\wordmaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\utility\\wordmaker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\assets\\_game\\scripts\\letterui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\letterui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|f:\\work\\freelancer\\raziapmandal\\3d word game\\word game\\assets\\_game\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|f:\\work\\freelancer\\raziapmandal\\3d word game\\word game\\assets\\_game\\scripts\\sphere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\sphere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\assets\\_game\\scripts\\data\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\data\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\assets\\_game\\scripts\\gamecamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\gamecamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|f:\\work\\freelancer\\raziapmandal\\3d word game\\word game\\assets\\_game\\scripts\\data\\gameresources.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\assets\\_game\\scripts\\data\\gameresources.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\data\\gameresources.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -39,16 +63,24 @@
       "RelativeMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|f:\\work\\freelancer\\raziapmandal\\3d word game\\word game\\assets\\_game\\scripts\\utility\\cameraorbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\assets\\_game\\scripts\\utility\\cameraorbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\utility\\cameraorbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\assets\\_game\\scripts\\data\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\data\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\assets\\_game\\scripts\\data\\gameconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B41308E-C13C-D484-EBF0-60CD5EDE3FDE}|Assembly-CSharp.csproj|solutionrelative:assets\\_game\\scripts\\data\\gameconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\TaskUIItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\_GAME\\Scripts\\TaskUIItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\_GAME\\Scripts\\Task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\TaskData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\_GAME\\Scripts\\TaskData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -57,63 +89,160 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 205,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 307,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Player.cs",
               "DocumentMoniker": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\_GAME\\Scripts\\Player.cs",
               "ToolTip": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\_GAME\\Scripts\\Player.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAowDkAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAywDMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T09:49:40.892Z",
+              "WhenOpened": "2025-08-11T09:01:33.886Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskManager.cs",
+              "DocumentMoniker": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Task\\TaskManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_GAME\\Scripts\\Task\\TaskManager.cs",
+              "ToolTip": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Task\\TaskManager.cs",
+              "RelativeToolTip": "Assets\\_GAME\\Scripts\\Task\\TaskManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T11:56:17.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Task.cs",
+              "DocumentMoniker": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Task\\Task.cs",
+              "RelativeDocumentMoniker": "Assets\\_GAME\\Scripts\\Task\\Task.cs",
+              "ToolTip": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Task\\Task.cs",
+              "RelativeToolTip": "Assets\\_GAME\\Scripts\\Task\\Task.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAApwDsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T09:32:21.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskUIItem.cs",
+              "DocumentMoniker": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Task\\TaskUIItem.cs",
+              "RelativeDocumentMoniker": "Assets\\_GAME\\Scripts\\Task\\TaskUIItem.cs",
+              "ToolTip": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Task\\TaskUIItem.cs",
+              "RelativeToolTip": "Assets\\_GAME\\Scripts\\Task\\TaskUIItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T09:31:49.653Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "LetterUI.cs",
-              "DocumentMoniker": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\LetterUI.cs",
-              "RelativeDocumentMoniker": "Assets\\_GAME\\Scripts\\LetterUI.cs",
-              "ToolTip": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\LetterUI.cs",
-              "RelativeToolTip": "Assets\\_GAME\\Scripts\\LetterUI.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAWwBsAAAAYAAAAAAAAAA==",
+              "Title": "TaskDescriptor.cs",
+              "DocumentMoniker": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Task\\TaskDescriptor.cs",
+              "RelativeDocumentMoniker": "Assets\\_GAME\\Scripts\\Task\\TaskDescriptor.cs",
+              "ToolTip": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Task\\TaskDescriptor.cs",
+              "RelativeToolTip": "Assets\\_GAME\\Scripts\\Task\\TaskDescriptor.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACYAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T09:24:31.277Z",
+              "WhenOpened": "2025-08-17T19:56:22.863Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
+              "Title": "TaskManager.cs",
+              "DocumentMoniker": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\TaskManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_GAME\\Scripts\\TaskManager.cs",
+              "ToolTip": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\TaskManager.cs",
+              "RelativeToolTip": "Assets\\_GAME\\Scripts\\TaskManager.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T07:51:17.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CubicleUtility.cs",
+              "DocumentMoniker": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Utility\\CubicleUtility.cs",
+              "RelativeDocumentMoniker": "Assets\\_GAME\\Scripts\\Utility\\CubicleUtility.cs",
+              "ToolTip": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Utility\\CubicleUtility.cs",
+              "RelativeToolTip": "Assets\\_GAME\\Scripts\\Utility\\CubicleUtility.cs",
+              "ViewState": "AgIAAAYBAAAAAAAAAAAmwH0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T10:59:52.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TaskUIItem.cs",
+              "DocumentMoniker": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\TaskUIItem.cs",
+              "RelativeDocumentMoniker": "Assets\\_GAME\\Scripts\\TaskUIItem.cs",
+              "ToolTip": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\TaskUIItem.cs",
+              "RelativeToolTip": "Assets\\_GAME\\Scripts\\TaskUIItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T07:55:51.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Task.cs",
+              "DocumentMoniker": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Task.cs",
+              "RelativeDocumentMoniker": "Assets\\_GAME\\Scripts\\Task.cs",
+              "ToolTip": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Task.cs",
+              "RelativeToolTip": "Assets\\_GAME\\Scripts\\Task.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T07:51:40.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TaskData.cs",
+              "DocumentMoniker": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\TaskData.cs",
+              "RelativeDocumentMoniker": "Assets\\_GAME\\Scripts\\TaskData.cs",
+              "ToolTip": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\TaskData.cs",
+              "RelativeToolTip": "Assets\\_GAME\\Scripts\\TaskData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T07:58:20.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "API.cs",
               "DocumentMoniker": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Data\\API.cs",
               "RelativeDocumentMoniker": "Assets\\_GAME\\Scripts\\Data\\API.cs",
               "ToolTip": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Data\\API.cs",
               "RelativeToolTip": "Assets\\_GAME\\Scripts\\Data\\API.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAABQwBoAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-01T08:35:08.083Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "HUDComponent.cs",
               "DocumentMoniker": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\HUDComponent.cs",
               "RelativeDocumentMoniker": "Assets\\_GAME\\Scripts\\HUDComponent.cs",
               "ToolTip": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\HUDComponent.cs",
               "RelativeToolTip": "Assets\\_GAME\\Scripts\\HUDComponent.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCwAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwCgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T17:38:16.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-29T17:38:16.867Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "GameResources.cs",
               "DocumentMoniker": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Data\\GameResources.cs",
               "RelativeDocumentMoniker": "Assets\\_GAME\\Scripts\\Data\\GameResources.cs",
@@ -121,12 +250,11 @@
               "RelativeToolTip": "Assets\\_GAME\\Scripts\\Data\\GameResources.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T09:32:55.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T09:32:55.885Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "GameConfiguration.cs",
               "DocumentMoniker": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Data\\GameConfiguration.cs",
               "RelativeDocumentMoniker": "Assets\\_GAME\\Scripts\\Data\\GameConfiguration.cs",
@@ -138,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "GameCamera.cs",
               "DocumentMoniker": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\GameCamera.cs",
               "RelativeDocumentMoniker": "Assets\\_GAME\\Scripts\\GameCamera.cs",
@@ -146,18 +274,50 @@
               "RelativeToolTip": "Assets\\_GAME\\Scripts\\GameCamera.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T20:05:20.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T20:05:20.54Z"
             }
           ]
         },
         {
-          "DockedWidth": 195,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 93,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\_GAME\\Scripts\\GameManager.cs",
+              "ToolTip": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\_GAME\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAswDEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T20:51:00.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Sphere.cs",
+              "DocumentMoniker": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Sphere.cs",
+              "RelativeDocumentMoniker": "Assets\\_GAME\\Scripts\\Sphere.cs",
+              "ToolTip": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Sphere.cs",
+              "RelativeToolTip": "Assets\\_GAME\\Scripts\\Sphere.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T19:52:47.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "WordMaker.cs",
               "DocumentMoniker": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Utility\\WordMaker.cs",
               "RelativeDocumentMoniker": "Assets\\_GAME\\Scripts\\Utility\\WordMaker.cs",
@@ -165,25 +325,11 @@
               "RelativeToolTip": "Assets\\_GAME\\Scripts\\Utility\\WordMaker.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T21:06:55.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T21:06:55.816Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\_GAME\\Scripts\\GameManager.cs",
-              "ToolTip": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\_GAME\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T20:51:00.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "CameraOrbit.cs",
               "DocumentMoniker": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Utility\\CameraOrbit.cs",
               "RelativeDocumentMoniker": "Assets\\_GAME\\Scripts\\Utility\\CameraOrbit.cs",
@@ -191,12 +337,11 @@
               "RelativeToolTip": "Assets\\_GAME\\Scripts\\Utility\\CameraOrbit.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T14:56:18.715Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T14:56:18.715Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "Screen.cs",
               "DocumentMoniker": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Screen.cs",
               "RelativeDocumentMoniker": "Assets\\_GAME\\Scripts\\Screen.cs",
@@ -204,21 +349,17 @@
               "RelativeToolTip": "Assets\\_GAME\\Scripts\\Screen.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T20:29:17.282Z",
-              "EditorCaption": ""
-            },
+              "WhenOpened": "2025-07-27T20:29:17.282Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1383,
+          "SelectedChildIndex": -1,
+          "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Sphere.cs",
-              "DocumentMoniker": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Sphere.cs",
-              "RelativeDocumentMoniker": "Assets\\_GAME\\Scripts\\Sphere.cs",
-              "ToolTip": "F:\\Work\\Freelancer\\RaziaPMandal\\3D Word Game\\Word Game\\Assets\\_GAME\\Scripts\\Sphere.cs",
-              "RelativeToolTip": "Assets\\_GAME\\Scripts\\Sphere.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAkwGIAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T19:52:47.487Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

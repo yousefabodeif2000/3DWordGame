@@ -51,11 +51,13 @@ namespace Dimensional
                 sphere.IsTakenByPlayer2 = PlayerType == PlayerOneTwo.Player2 ? true : false;
             GameManager.SwitchTurns();
             playerHUD.OnSphereClick(sphere);
+            ChosenSpheres.Add(sphere);
         }
         public void Reset()
         {
             IsTurn = false;
             PlayerScore = 0;
+            ChosenSpheres.Clear();
         }
     }
 }

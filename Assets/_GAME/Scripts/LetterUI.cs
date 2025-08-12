@@ -16,7 +16,10 @@ public class LetterUI : MonoBehaviour
         }
     }
     public TMPro.TMP_Text letterText;
-
+    public void Initialize()
+    {
+        letterText.gameObject.SetActive(false);
+    }
     public static LetterUI Create(char letter)
     {
         GameObject letterObject = GameManager.GameResources.letterUIPrefab.gameObject;
